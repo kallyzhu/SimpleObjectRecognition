@@ -46,15 +46,12 @@ In order to run the code above, you need to install some essential liabraries:<b
 * To run `GUI.ipynb`: Open the file and run the file. An friendly interface will appear and direct you to choose a picture.
     * upload image window 
     
-    ![](https://github.com/nding17/SimpleObjectRecognition/blob/master/data/readme_data/pic1.jpg =250x250)
-    <img src="https://github.com/nding17/SimpleObjectRecognition/blob/master/data/readme_data/pic1.jpg" width="200" height="300">
+    <img src="https://github.com/nding17/SimpleObjectRecognition/blob/master/data/readme_data/pic1.jpg" width="300" height="300">
     
     * choose an image from your own desktop
     
-    ![](https://github.com/nding17/SimpleObjectRecognition/blob/master/data/readme_data/pic1.jpg =250x250)
     <img src="https://github.com/nding17/SimpleObjectRecognition/blob/master/data/readme_data/pic2.jpg" width="400" height="400">
     
     * return the recognization result
-    
-    ![](https://github.com/nding17/SimpleObjectRecognition/blob/master/data/readme_data/pic1.jpg =250x250) 
+     
     <img src="https://github.com/nding17/SimpleObjectRecognition/blob/master/data/readme_data/pic3.jpg" width="200" height="200">
