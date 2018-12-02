@@ -47,6 +47,7 @@ In order to run the code above, you need to install some essential liabraries:<b
     * upload image window 
     
     ![](https://github.com/nding17/SimpleObjectRecognition/blob/master/data/readme_data/pic1.jpg =250x250)
+    <img src="https://github.com/nding17/SimpleObjectRecognition/blob/master/data/readme_data/pic1.jpg" width="200" height="200">
     
     * choose an image from your own desktop
     
