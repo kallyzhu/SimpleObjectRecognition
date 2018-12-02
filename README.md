@@ -4,6 +4,9 @@
 ## Brief introduction to what we have done
 Here we use the Convolutional Neural Network (CNN) and Keras to build a model to classify images (code outlined in the file `cnn-model.ipynb`). After finishing the model training and testing, a graphical user interface(GUI) is built to facilitate the application of this code trunk (code outlined in the file `GUI.ipynb`).
 
+## Motivation 
+Image classification problem is the task of assigning an input image one label from a fixed set of categories. This is one of the core problems in Computer Vision that, despite its simplicity, has a large variety of practical applications.
+
 ## What is CNN?
 A CNN is a supervised learning technique which needs both input data and target output data to be supplied. These are classified by using their labels in order to provide a learned model for future data analysis.
 
@@ -18,6 +21,19 @@ Data in this project is devided into **three sections**.
 * **Training data**: the data we use to build the models
 * **Testing data**: untouched data to verify the effectiveness of the built model
 * **Online data**: evaluate the CNN model from random images searched online and do some interesting application
+
+## Implementation and steps
+
+### Image Data download and extraction
+* extract the images from their labels and extract the ten categories
+* construct the training and testing dataset
+    * training dataset: 5 batches data ,each of which contains 1000 images
+    * testing dataset: 1 batch data, that is 1000 images 
+
+### Image Data processing 
+* construct a dictionary with image name and label in file `cnn-model.ipynb`
+* use the one hot encoding to change each label to an array with 1 and 0
+* reshape the image data to a 32*32 array
 
 ## Installation instructions
 In order to run the code above, you need to install some essential liabraries:<br/>
